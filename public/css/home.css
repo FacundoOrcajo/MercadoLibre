@@ -1,0 +1,60 @@
+.buttom{
+    text-align: center;
+    margin-right: 120px;
+}
+.buttom i{
+    margin-left: 150px;
+    display: inline-block;
+    border-radius: 2px;
+    background-color: blue;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+}
+.logo{
+    height: 150px;
+    width: 150px;
+    display: inline;
+}
+.precio{
+    font-size: 18px;
+}
+.descuento{
+    font-size: 16px;
+    color: red;
+}
+.descripcion{
+    font-size: 16px;
+}
+.home{
+    font-family: 'Roboto', sans-serif;
+    background-color: #EAC926;
+}
+.home__header--menu ul li a{
+    text-decoration: none;
+    color: #666;
+}
+.home__main__section h2{
+    font-size: 24px;
+    text-align: center;
+}
+.home__main__section article div{
+    text-align: center;
+}
+.home__footer__section{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.home__footer__section span i{
+    font-size: 2em;
+    color: #1259c3;
+}
+.home__footer__section h3{
+    color: #666;
+}
+.home__footer__section p{
+    color: #ebebeb;
+}
