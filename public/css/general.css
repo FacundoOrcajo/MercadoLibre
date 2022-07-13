@@ -1,0 +1,26 @@
+.home{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--colorGrisClaro);
+}
+.home__header{
+    background-color: var(--colorAmarillo);
+}
+.home__main{
+    background-color: var(--colorGrisClaro);
+}
+img{
+    list-style: none;
+}
+ul{
+    list-style: none;
+    padding: 0%;
+}
+.articulo{
+    border-top: 1px solid var(--colorGrisClaro);
+    background-color: var(--colorBlanco);
+    margin: 10px 0;
+}
+.articulo i{
+    color: var(--colorVerde);
+    margin-left: 15px;
+}
