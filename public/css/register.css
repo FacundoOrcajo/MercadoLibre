@@ -1,0 +1,74 @@
+.users__banner{
+    display: none;
+}
+.form--contraseña{
+    margin-top: 1%;
+}
+main input{
+    margin: 2%;
+    border-radius: 5%;
+    border: solid 1px white;
+}
+main #nombre{
+    padding: 2%;
+}
+main h2{
+    margin-top: 0%;
+    text-align: center;
+}
+main .boton input{
+    background-color: #1259c3;
+    color: var(--colorBlanco);
+    padding: 1.5%;
+    border-radius: 5%;
+}
+.borrar{
+    margin-left: 24px;
+}
+.enviar{
+    margin-left: 24px;
+}
+
+@media screen and(min-width:361px) {
+    .nav{
+        display: none;
+    }
+    .form--contraseña{
+        display: flex;
+    }
+    .segundo{
+        margin-left: 23%;
+    }
+}
+@media screen and(min-width:769px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .primero{
+        text-align: center;
+    }
+    .segundo{
+        display: flex;
+        justify-content: space-around;
+    }
+    .intereses{
+        width: 25%;
+    }
+    .perfil{
+        width: 25%;
+    }
+    .form--contraseña{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .contraseña{
+        width: 25%;
+        margin-bottom: 10px;
+    }
+    .boton{
+        width: 35%;
+    }
+}

@@ -186,7 +186,7 @@
         display: inline-block;
         font-size: 100%;
     }
-    .button{
+    .buttom{
         display: none;
     }
     main section{
@@ -209,5 +209,8 @@
 @media (min-width: 769px){
     .main--articulo{
         width: 22%;
+    }
+    .buttom{
+        display: none;
     }
 }

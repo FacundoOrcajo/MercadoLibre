@@ -3,9 +3,13 @@
     padding: 0px;
     box-sizing: border-box;
 }
-.home{
+body{
     font-family: 'Roboto', sans-serif;
     background-color: var(--colorGrisClaro);
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
 }
 .header{
     background-color: var(--colorAmarillo);
